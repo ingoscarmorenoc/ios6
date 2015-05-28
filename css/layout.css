@@ -4,8 +4,7 @@ body {
   position: relative;
 }
 #add-site,
-#manage-accounts,
-.full-screen-dialog .modalContent {
+#manage-accounts {
   margin: 0 auto;
   width: 90%;
 }
@@ -63,15 +62,10 @@ body {
   overflow: auto;
   width: 100%;
 }
-.full-screen-dialog.choose-account .modalContent {
-  height: 100%;
-  overflow: auto;
-}
 /* - Tablet minimum width 768px
 -------------------------------------------------------------------------- */
 .tablet #add-site,
-.tablet #manage-accounts,
-.tablet .full-screen-dialog .modalContent {
+.tablet #manage-accounts {
   width: 70%;
 }
 .tablet .header-wrapper {
